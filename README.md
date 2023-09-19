@@ -1,2 +1,3 @@
 # aplikasi
-aplikasi file manger php
+aplikasi file-manager by ekiguistian
+menggunakan bahasa PHP
