@@ -15,7 +15,7 @@ error_reporting(0);
 <body>
     <div class="container">
         <h2 style="text-align: center;">Gunakan Dengan Bijak</h2>
-   <p align="center"> Eki Guistian - Teknik Informatika </p>  
+   <p> Eki Guistian - Teknik Informatika </p>  
         <br>
         <?php 
         if(isset($_GET['alert'])){
@@ -64,7 +64,7 @@ error_reporting(0);
                 <tr>
                     <td><?php echo $no++; ?></td>
                     <td><?php echo $d['namefile']; ?></td>
-                    <td><a href="http://allnetwork.online/aplikasi/filemanagerbyekiguistian/<?php echo $d['file'] ?>" target="_blank" rel="nofollow">Download Now</a></td>
+                    <td><a href="http://balzecloud.my.id/filemanagerbyekiguistian/<?php echo $d['file'] ?>" target="_blank" rel="nofollow">Download</a></td>
                 </tr>
                 <?php
             }
